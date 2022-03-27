@@ -1,6 +1,6 @@
 {
   "name": "@ix-cli/core",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "core package",
   "keywords": [
     "core"
@@ -15,7 +15,10 @@
   },
   "files": [
     "lib"
-  ],
+  ], 
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
