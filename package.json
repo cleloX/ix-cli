@@ -6,14 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": "core/cli/bin/index.js",
   "author": "clelo",
-  "private": false,
+  "private": true,
   "workspaces": [
-    "packages/*"
-  ], 
-  "publishConfig": {
-    "access": "public"
-  },
+    "core/*",
+    "commands/*",
+    "utils/*",
+    "models/*"
+  ],
   "license": "ISC",
   "dependencies": {
     "lerna": "^4.0.0"
